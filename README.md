@@ -7,6 +7,7 @@ The app should do the following (see screenshots folder for examples):
 1. Show an index of posts (screenshot 1). Write this code in the Posts/All component.
 2. Display some kind of 'Loading' indicator while the app is waiting for data to be fetched (screenshot 2).
 3. Display each post in detail when clicked from the index (screenshot 3). Write this code in the Posts/View component.
+4. Display user names instead of user IDs. Get the user names from `src/users.js`.
 
 Note that the examples are (mostly) unstyled. We will also be evaluating your design and CSS skills with this assignment, so try to make your app look good. However, keep in mind that we don't expect you to put more than a couple hours of work into this assignment, so it doesn't have to look amazing.
 
