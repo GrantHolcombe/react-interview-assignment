@@ -2,7 +2,7 @@ import React, {useState} from 'react'
 
 import users from 'users'
 
-const View = ({postId, back}) => {
+const View = (props) => {
 
     return <>
     </>
