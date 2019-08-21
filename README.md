@@ -1,7 +1,7 @@
 React Interview Assignment
 ==========================
 
-The purpose of this assignment is for us to gauge your competence with JavaScript, CSS, and React. You will build a very simple API-driven single-page app. This assignment should take less than two hours to complete.
+The purpose of this assignment is for us to gauge your competence with JavaScript, CSS, and React. You will build a very simple API-driven single-page app. This assignment should take less than two hours to complete. You should fork this repo and provide us with a link to your fork when you are done.
 
 The app should do the following (see screenshots folder for examples):
 1. Show an index of posts (screenshot 1). Write this code in the Posts/All component.
