@@ -2,16 +2,103 @@ html, body, #root, .App {
     height: 100%;
     width: 100%;
 }
+
 .App {
     max-width: 800px;
     padding: 0;
     margin: 0 auto;
 }
+
+h1 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
 .loading {
   margin: 0 auto;
   display: block;
   animation: rotation 2s infinite linear;
 }
+
+ul {
+  margin-top: 50px;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 15px;
+  background: white;
+  border: 1px solid black;
+  max-width: 75vw;
+}
+
+ul li:hover {
+  position: relative;
+  top: 5px;
+  left: -5px;
+  cursor: pointer;
+}
+
+ul .backing-box {
+  background: red;
+  width: 100%;
+  max-width: calc(75vw + 35px);
+  height: 55px;
+  position: relative;
+  top: -40px;
+  left: -15px;
+  z-index: -1;
+}
+
+ul .backing-box:hover {
+  top: -30px;
+  left: -5px;
+}
+
+.item {
+  margin-top: -30px;
+}
+
+.view h1 {
+  background: white;
+  border: 1px solid black;
+  position: relative;
+  left: 15px;
+  top: -15px;
+}
+
+.view .backing-box {
+  background: red;
+  position: relative;
+  left: -15px;
+  width: calc(100% + 15px);
+  margin-top: 26.56px;
+}
+
+button {
+  padding: 5px 50px;
+  transition: 2s;
+  transition-property: background;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background: red;
+  color: white;
+}
+
 
 @keyframes rotation {
   from {

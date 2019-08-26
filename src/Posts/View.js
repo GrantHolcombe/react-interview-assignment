@@ -17,10 +17,11 @@ const View = (props) => {
   }, []);
 
     return <>
-      {data.length == 0 ? <img className="loading" src="logo192.png" /> :
+      {!data.title ? <img className="loading" src="logo192.png" /> :
         <div>
-          <h1>{data.title}</h1>
-          <h2>By {data.userId}</h2>
+
+          <div className="backing-box"><h1>{data.title}</h1></div>
+          <h2>By {users[data.userId]}</h2>
           <p>{data.body}</p>
         </div>
       }

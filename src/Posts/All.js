@@ -22,17 +22,16 @@ const All = () => {
   const allView = () => {
     return <>
         <div className="all">
-          <h1 style={{
-              textAlign: 'center',
-              fontWeight: 'lighter',
-              fontSize: '3rem',
-          }}>All Posts</h1>
-          <ol>
+          <h1>All Posts</h1>
+          <ul>
             {data.length == 0 ? <img className="loading" src="logo192.png" /> :
               data.map((item, index) => (
-              <li key={item.id} onClick={() =>{setView(view = 1); setViewId(viewId = item.id)}} >{item.title}</li>
+              <div className="item">
+                <li key={item.id} onClick={() =>{setView(view = 1); setViewId(viewId = item.id)}} >{item.title}</li>
+                <div className="backing-box"></div>
+              </div>
             ))}
-          </ol>
+          </ul>
         </div>
     </>
   }
