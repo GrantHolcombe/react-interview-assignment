@@ -25,6 +25,11 @@ p {
   font-size: 1.5rem;
 }
 
+li {
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
 .loading {
   margin: 0 auto;
   display: block;
@@ -84,6 +89,10 @@ ul .backing-box:hover {
   left: -15px;
   width: calc(100% + 15px);
   margin-top: 26.56px;
+}
+
+.view {
+  padding: 30px 25px;
 }
 
 button {
